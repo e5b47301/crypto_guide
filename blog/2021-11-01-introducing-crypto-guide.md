@@ -17,7 +17,7 @@ aimed to help absolute beginners learn about cryptocurrencies, NFTs, smart
 contracts, web 3.0, how to invest and earn money... For the devs out there, I also
 want to teach how to build dApps.
 
-This [guide](../) is free and open source, and will remain that way.
+This [guide](/) is free and open source, and will remain that way.
 
 I will try to make this guide as honest, insightful and valuable as possible.
 
