@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'THE MF CRYPTO GUIDE',
-  tagline: 'Ultimate crypto guide',
+  title: 'THE CRYPTO GUIDE',
+  tagline: 'The ultimate crypto guide',
   url: 'https://e5b47301.github.io',
   baseUrl: '/crypto_guide/',
   onBrokenLinks: 'throw',
@@ -25,13 +25,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
+          editUrl: 'https://github.com/e5b47301/crypto_guide',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/main/website/blog/',
+            'https://github.com/e5b47301/crypto_guide',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -44,21 +44,21 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'The Crypto Guide',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'CG logo',
+          src: 'img/theCryptoGuideQRcodeNameLess.svg',
         },
         items: [
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Guide',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/e5b47301/crypto_guide',
             label: 'GitHub',
             position: 'right',
           },
@@ -68,10 +68,10 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'The Guide',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Start here',
                 to: '/docs/intro',
               },
             ],
@@ -81,7 +81,7 @@ const config = {
             items: [
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/enaA68ayRV',
               },
               {
                 label: 'Twitter',
@@ -103,12 +103,16 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()}`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      colorMode: {
+        defaultMode: 'dark',
+      },
+      
     }),
 };
 
