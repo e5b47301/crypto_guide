@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcrypto_guide=self.webpackChunkcrypto_guide||[]).push([[785],{4978:function(e){e.exports=JSON.parse('{"permalink":"/crypto_guide/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"previousPage":null,"nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

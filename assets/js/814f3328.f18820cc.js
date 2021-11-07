@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcrypto_guide=self.webpackChunkcrypto_guide||[]).push([[535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Building a crypto guide","permalink":"/crypto_guide/blog/crypto_guide_genesis"}]}')}}]);
